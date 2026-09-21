@@ -1,11 +1,5 @@
-ALCANCÍA DIGITAL — PROTOTIPO V1
+ALCANCÍA DIGITAL V2
 
-Incluye meta editable, 100 casillas, registro y retiro de monedas, denominaciones configurables, historial, logros, sonido y voz cuando el navegador lo permite. Los datos se guardan localmente en el navegador.
+Incluye: nombre/apodo opcional, nombre del reto, CRC/USD/EUR/otra moneda, monedas y billetes editables, registro individual, modo Todas, cantidades en blanco tras guardar, mensajes de confirmación, Limpiar, historial, resumen de agregado/retirado y Deshacer último movimiento.
 
-Para probar en computadora:
-1. Descomprima el ZIP.
-2. Abra una terminal en esa carpeta.
-3. Ejecute: python -m http.server 8000
-4. Abra en el navegador: http://localhost:8000
-
-Para usarla cómodamente en el teléfono, el siguiente paso será publicarla en un sitio HTTPS.
+Los datos se guardan localmente en el navegador.
