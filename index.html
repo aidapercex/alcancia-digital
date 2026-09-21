@@ -2,10 +2,10 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#355c5a">
-<title>Alcancía Digital</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css">
+<title>Alcancía Digital</title><link rel="manifest" href="manifest.json"><link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><link rel="stylesheet" href="style.css">
 </head>
 <body><main>
-<header><div><small>MI RETO DE AHORRO</small><h1>Alcancía Digital 🪙</h1></div><button id="sound" aria-label="Activar o silenciar sonidos">🔊</button></header>
+<header class="brandHeader"><img class="brandLogo" src="logo-alcancia.png" alt="Alcancía Digital — Pequeños ahorros, grandes metas"><button id="sound" aria-label="Activar o silenciar sonidos">🔊</button></header>
 <section class="card"><div class="two"><label>Nombre o apodo<input id="person" placeholder="Opcional"></label><label>Nombre del reto<input id="challenge" placeholder="Ej. Viaje"></label></div><div class="two gap"><label>Moneda<select id="currency"><option value="CRC">Colón (₡)</option><option value="USD">Dólar ($)</option><option value="EUR">Euro (€)</option><option value="OTHER">Otra</option></select></label><label>Meta<input id="goal" type="number" min="1"></label></div><div id="other" class="two gap hide"><label>Símbolo<input id="symbol" placeholder="£"></label><label>Código<input id="code" placeholder="GBP"></label></div><p id="hello"></p><p class="hint">100 casillas · <b id="perbox"></b> por casilla</p></section>
 <section class="stats"><div>Ahorrado<b id="saved"></b></div><div>Falta<b id="left"></b></div><div>Avance<b id="pct"></b></div></section>
 <section id="lastMoveCard" class="lastmove hide"><span>Último movimiento</span><b id="lastMove"></b></section>
