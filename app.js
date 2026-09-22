@@ -51,3 +51,4 @@ function exportReport(){
   const w=window.open("","_blank"); if(!w){toast("⚠️ Permita ventanas emergentes para crear el reporte.",3500);return} w.document.open();w.document.write(html);w.document.close();
 }
 const exportPdfBtn=$("#exportPdf");if(exportPdfBtn)exportPdfBtn.onclick=exportReport;
+const helpTop=$("#helpTop");if(helpTop)helpTop.onclick=()=>{const d=$("#helpDetails"),sec=$("#helpSection");if(d)d.open=true;if(sec)sec.scrollIntoView({behavior:"smooth",block:"start"});};

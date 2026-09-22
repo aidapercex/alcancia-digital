@@ -1,11 +1,13 @@
-ALCANCÍA DIGITAL V4.3
+ALCANCÍA DIGITAL V4.3 — AJUSTE FINAL
 
-Base: V4.2. Mantiene el almacenamiento local y la clave localStorage alcanciaV2 para conservar los datos existentes.
+Base: V4.2. Conserva localStorage alcanciaV2 para mantener los datos existentes.
 
-Novedades V4.3:
-- Ayuda didáctica y desplegable, con ejemplos sencillos.
-- Acerca de y créditos.
-- Exportar alcancía: genera un reporte imprimible que puede guardarse como PDF desde el dispositivo.
-- Caché PWA actualizada a alcancia-v4-3.
+Interfaz V4.3:
+- Accesos rápidos arriba: Ayuda y Exportar.
+- Ayuda didáctica y desplegable con ejemplos sencillos.
+- Exportar genera un documento de consulta que puede guardarse como PDF.
+- Privacidad, seguridad y respaldo permanecen en la zona inferior.
+- Acerca de y créditos quedan al final.
+- Caché PWA: alcancia-v4-3-ui3.
 
-Importante: el PDF es para consulta/impresión; la copia JSON sigue siendo el respaldo para restaurar datos.
+Importante: Exportar no sustituye la copia de seguridad JSON.

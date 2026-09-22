@@ -12,3 +12,6 @@
 
 /* Alcancía Digital V4.3 — ayuda y reporte */
 .helpintro,.remember,.about{background:var(--p);border:1px solid var(--l);border-radius:14px;padding:12px;margin:12px 0}.helpintro p,.remember p,.about p{line-height:1.5}.helpitems>details{border-top:1px solid var(--l);padding:10px 2px}.helpitems>details:first-child{border-top:0}.helpitems>details>summary{cursor:pointer;line-height:1.35}.helpitems>details p{line-height:1.55;margin:9px 2px}.remember{background:var(--c)}#exportPdf{background:var(--d);color:#fff}
+
+/* V4.3 ajuste de navegación: ayuda y exportación accesibles sin recargar el pie */
+.quickActions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 12px}.quickActions button{background:#fff;border:1px solid var(--l);box-shadow:0 3px 10px #355c5a0c;padding:9px 12px}.quickActions #exportPdf{background:var(--d);color:#fff}.quickActions #helpTop{color:var(--d)}
